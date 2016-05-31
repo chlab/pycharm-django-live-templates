@@ -1,0 +1,31 @@
+<templateSet group="Django">
+  <template name="trans" value="{% trans &quot;$VAL$&quot; %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+  <template name="url" value="{% url &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+  <template name="include" value="{% include &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+  <template name="comment" value="{% comment %}$VAL${% endcomment %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+  <template name="csrf" value="{% csrf_token %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+</templateSet>
