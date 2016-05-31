@@ -28,4 +28,15 @@
       <option name="Django" value="true" />
     </context>
   </template>
+  <template name="debug" value="{% debug %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+  <template name="extends" value="{% extends &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
 </templateSet>
