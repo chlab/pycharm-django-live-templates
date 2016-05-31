@@ -12,6 +12,6 @@ Use them in django templates like so:
 
 ## Contribute
 
-Missing tags?
+Missing [tags](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/)?
 Define them in PyCharm *Settings > Editor > Live Templates > Django*. Look at the other tags to see how to define them.
 Please send a pull request and I'll be happy to merge it!
