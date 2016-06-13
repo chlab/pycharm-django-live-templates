@@ -54,4 +54,10 @@
       <option name="Django" value="true" />
     </context>
   </template>
+  <template name="static" value="{% static &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
 </templateSet>
