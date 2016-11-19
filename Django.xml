@@ -40,4 +40,36 @@
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="for" value="{% for $VAR$ in $VAR2$ %}&#10;    $SELECTION$$END$&#10;{% endfor %}" description="Django template for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="''" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="forelse" value="{% for $VAR$ in $VAR2$ %}&#10;    $SELECTION$$END$&#10;{% empty %}&#10;    &#10;{% endfor %}" description="Django template for-empty loop" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="''" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="block" value="{% block $BLOCK$ %}$END${% endblock %}" description="Django template block" toReformat="false" toShortenFQNames="true">
+    <variable name="BLOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="{% if $VAR$ %}&#10;    $SELECTION$$END$&#10;{% else %}&#10;    $SELECTION$&#10;{% endif %}" description="Django template if/else statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="if" value="{% if $VAR$ %}&#10;    $SELECTION$$END$    &#10;{% endif %}" description="Django template if statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
