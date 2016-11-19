@@ -1,7 +1,9 @@
 <templateSet group="Django">
   <template name="trans" value="{% trans '$VAL$' %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="url" value="{% url '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
@@ -11,21 +13,31 @@
   </template>
   <template name="include" value="{% include '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="comment" value="{% comment %}$VAL${% endcomment %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="csrf" value="{% csrf_token %}" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="debug" value="{% debug %}" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="extends" value="{% extends '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="tag" value="{% $VAL$ %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
@@ -34,11 +46,15 @@
     </context>
   </template>
   <template name="else" value="{% else %}" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="static" value="{% static '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="for" value="{% for $VAR$ in $VAR2$ %}&#10;    $SELECTION$$END$&#10;{% endfor %}" description="Django template for loop" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="''" alwaysStopAt="true" />
