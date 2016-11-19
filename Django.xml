@@ -1,63 +1,43 @@
 <templateSet group="Django">
-  <template name="trans" value="{% trans &quot;$VAL$&quot; %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="trans" value="{% trans '$VAL$' %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
-  <template name="url" value="{% url &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+  <template name="url" value="{% url '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="Django" value="true" />
     </context>
   </template>
-  <template name="include" value="{% include &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+  <template name="include" value="{% include '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
   <template name="comment" value="{% comment %}$VAL${% endcomment %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
   <template name="csrf" value="{% csrf_token %}" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
   <template name="debug" value="{% debug %}" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
-  <template name="extends" value="{% extends &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+  <template name="extends" value="{% extends '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
   <template name="tag" value="{% $VAL$ %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="Django" value="true" />
     </context>
   </template>
   <template name="else" value="{% else %}" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
-  <template name="static" value="{% static &quot;$VAL$&quot; %}" toReformat="false" toShortenFQNames="true">
+  <template name="static" value="{% static '$VAL$' %}" toReformat="false" toShortenFQNames="true">
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Django" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
