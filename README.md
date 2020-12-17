@@ -5,7 +5,8 @@ PyCharm supports auto-expanding certain keywords in Django templates to the corr
 ## Installation
 
 ### For Os X and Windows
-Clone the repository and copy the `Django.xml` file copy it in the templates directory of your [preferences directory]https://www.jetbrains.com/help/pycharm/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html#config-directory), e.g. on OS X `~/Library/Preferences/<PRODUCT><VERSION>/templates/Django.xml`.
+Clone the repository and copy the `Django.xml` file copy it in the templates directory of your
+[preferences directory](https://www.jetbrains.com/help/pycharm/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html#config-directory), e.g. on OS X `~/Library/Preferences/<PRODUCT><VERSION>/templates/Django.xml`.
 
 ### For Linux
 
