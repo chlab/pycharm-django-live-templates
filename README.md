@@ -2,9 +2,24 @@
 
 PyCharm supports auto-expanding certain keywords in Django templates to the corresponding Django template tag. PyCharm calls these live templates, other programs call them snippets. By default, only a handful of template tags are supported. This repo reflects my efforts of creating the remaining ones as I need them.
 
-## How to use
+## Installation
 
-Download `Django.xml` from this repo and put it in the templates directory of your [preferences directory](https://www.jetbrains.com/help/pycharm/2016.1/directories-used-by-pycharm-to-store-settings-caches-plugins-and-logs.html), e.g. on OS X `~/Library/Preferences/<PRODUCT><VERSION>/templates/Django.xml`.
+### For Os X and Windows
+Clone the repository and copy the `Django.xml` file copy it in the templates directory of your
+[preferences directory](https://www.jetbrains.com/help/pycharm/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html#config-directory), e.g. on OS X `~/Library/Preferences/<PRODUCT><VERSION>/templates/Django.xml`.
+
+### For Linux
+
+~~~vim
+git clone https://github.com/Daniel1404/pycharm-django-live-templates.git
+cd pycharm-django-live-templates
+./install.py
+~~~
+
+It will let you a prompt, where you choice the IDE folder. Then the **install.py** script will copy
+the Django.xml file into the templates directory.
+
+## How to use
 
 Use them in django templates like so:
 
